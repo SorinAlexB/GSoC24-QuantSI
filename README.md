@@ -1,7 +1,7 @@
 # INCF GSoC'24 - QuantSI
 <img width="100px" src="https://summerofcode.withgoogle.com/assets/media/gsoc-generic-badge.svg" align="right"/>
 
-[QuantSI](https://github.com/brian-team/QuantSI), formerly known as brian2units, is a package for managing units within the International System of Units (SI) and offers various functionalities with integration support for NumPy and Matplotlib.
+[QuantSI](https://github.com/brian-team/QuantSI), formerly known as brian2units, is a package for managing units within the International System of Units (SI) and offers various functionalities with integration support for NumPy and Matplotlib. The package can be find on PyPI [here](https://pypi.org/project/QuantSI/).
 
 The project aimed to develop a standalone package based on brian2units, including test setups, comprehensive documentation, and the integration of key features from the current Brian package, as well as additional functionalities from other related packages.
 
