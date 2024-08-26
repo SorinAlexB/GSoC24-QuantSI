@@ -1,9 +1,9 @@
 # INCF GSoC'24 - QuantSI
 <img width="100px" src="https://summerofcode.withgoogle.com/assets/media/gsoc-generic-badge.svg" align="right"/>
 
-[QuantSI](https://github.com/brian-team/QuantSI), formerly known as brian2units, is a package for managing units within the International System of Units (SI) and offers various functionalities with integration support for NumPy and Matplotlib. The package can be find on PyPI [here](https://pypi.org/project/QuantSI/).
+[QuantSI](https://github.com/brian-team/QuantSI), formerly brian2's unit package, is a package for managing units within the International System of Units (SI) and offers various functionalities with integration support for NumPy and Matplotlib. The package can be find on PyPI https://pypi.org/project/QuantSI
 
-The project aimed to develop a standalone package based on brian2units, including test setups, comprehensive documentation, and the integration of key features from the current Brian package, as well as additional functionalities from other related packages.
+The project aimed to develop a standalone package based on brian2's unit package, including test setups, comprehensive documentation, and the integration of key features from the current Brian package, as well as additional functionalities from other related packages.
 
 ## GSoC Contributor
 
@@ -20,7 +20,7 @@ The project aimed to develop a standalone package based on brian2units, includin
 
 During my internship, I undertook and learned many things:
 
-- **Code Import and Cleanup**: Imported the base source code from brian2units, retaining only the essential components and modifying dependencies and paths within the internal Python files.
+- **Code Import and Cleanup**: Imported the base source code from brian2's unit package, retaining only the essential components and modifying dependencies and paths within the internal Python files.
 - **Package Structuring**: Established the initial package structure to test installation and usage, and adapted the first set of automated tests using pytest.
 - **Documentation and Research**: Studied the documentation and implementations of `NumPy`, `Pint`, and the `units` module from `Astropy` to understand their integration capabilities and best practices.
 - **Function Wrappers Implementation**: Explored and implemented different approaches for wrapping `NumPy` functions that did not work as expected by default.
@@ -44,6 +44,8 @@ Most of the work was consolidated into two primary pull requests due to their in
 
 ## Researched Documentation
 
+- [Brian2](https://brian2.readthedocs.io/en/stable/)
+- [Brian2 GitHub](https://github.com/brian-team/brian2)
 - [NumPy](https://numpy.org/)
 - [PyTest](https://docs.pytest.org/en/stable/)
 - [Pint](https://pint.readthedocs.io/en/stable/)
@@ -56,7 +58,7 @@ Future enhancements for this package include:
 
 - **String to Quantity Converter**: Implementing a feature to convert textual representations like "3 meters per second" into `3 * meter/second` format.
 - **Additional Functionalities**: Expanding the package's capabilities by integrating more functionalities inspired by other unit management packages.
-- **Brian2 Integration**: Updating the Brian2 structure to utilize QuantSI effectively and removing outdated brian2units files to streamline operations.
+- **Brian2 Integration**: Updating the Brian2 structure to utilize QuantSI effectively and removing outdated brian2's unit package files to streamline operations.
 
 ## Main Takeaways
 
